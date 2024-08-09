@@ -12,6 +12,8 @@ export default function Home() {
           <br />
           <a href="/order/list">주문관리</a>
           <br />
+          <a href="/item/list">상품관리</a>
+          <br />
           <a href="/user/list">회원관리</a>
           <br />
         </p>

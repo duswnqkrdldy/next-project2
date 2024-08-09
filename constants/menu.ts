@@ -8,7 +8,7 @@ export const menus: { name: string; items: Item[] }[] = [
     items: [
       { name: "홈", slug: "dashboard" },
       { name: "주문관리", slug: "order/list" },
-      { name: "상품관리", slug: "/" },
+      { name: "상품관리", slug: "item/list" },
       { name: "회원관리", slug: "user/list" },
     ],
   },

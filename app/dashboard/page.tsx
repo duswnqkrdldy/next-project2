@@ -1,5 +1,3 @@
-import Left from "../Left";
-
 const Home = () => {
   return (
     //최상위 main
