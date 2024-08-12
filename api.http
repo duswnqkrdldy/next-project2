@@ -1,0 +1,1 @@
+GET https://makeup-api.herokuapp.com/api/v1/products.json HTTP/1.1

@@ -109,11 +109,23 @@ const Home = () => {
                 <td className="px-6 py-4 whitespace-nowrap">
                   {order.category}
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap">
-                  {order.tag_list}
-                </td>
+
                 <td className="px-6 py-4 whitespace-nowrap">{order.date1}</td>
                 <td className="px-6 py-4 whitespace-nowrap">{order.date2}</td>
+                <td>
+                  <a
+                    href="/item/regist"
+                    className="bg-gray-700 text-white py-2 px-4 mx-2 rounded-lg hover:bg-gray-600"
+                  >
+                    수정
+                  </a>
+                  <a
+                    href="/item/regist"
+                    className="bg-gray-700 text-white py-2 px-4  mx-2 rounded-lg hover:bg-gray-600"
+                  >
+                    삭제
+                  </a>
+                </td>
               </tr>
             ))}
           </tbody>
